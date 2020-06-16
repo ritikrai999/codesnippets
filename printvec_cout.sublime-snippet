@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+
+#define print1(arr,a,b) for(int iji=a;iji<b;iji++) cout<<arr[iji]<<" "; cout<<endl
+#define print(arr,a,b)  for(int iji=a;iji<b;i++) cout<<arr[iji]<<endl
+#define print2d(dp,r,c) for(int iji=0;iji<r;iji++){for(int jij=0;jij<c;jij++) cout<<dp[iji][jij]<<" "; cout<<endl;}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>printvec_cout</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
